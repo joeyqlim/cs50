@@ -22,9 +22,6 @@ int main(int argc, string argv[])
     }
     else
     {
-
-        // print the key after verifying that it is a digit
-        printf("%i\n", atoi(argv[1]));
         // store key as a variable
         int key = atoi(argv[1]);
 
@@ -41,10 +38,8 @@ int main(int argc, string argv[])
             {
                 char start = 'A';
                 if (islower(character))
-                {
                     start = 'a';
                     printf("%c", (character - start + key) % 26 + start);
-                }
             }
             else
             {
