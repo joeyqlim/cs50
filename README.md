@@ -32,6 +32,8 @@ Documenting my progress through [CS50's Introduction to Computer Science](https:
 	- Cash - 100%
 	- Readability - 99%
 	- DNA - 100%
--   [Week 7](https://cs50.harvard.edu/x/2020/weeks/7/)  SQL
+-   [Week 7](https://cs50.harvard.edu/x/2020/weeks/7/)  SQL ✅
+	- Movies - 100%
+	- Houses - 100%
 -   [Week 8](https://cs50.harvard.edu/x/2020/weeks/8/)  Information
 - Final Project 
