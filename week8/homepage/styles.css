@@ -1,0 +1,23 @@
+img {
+    max-width: 500px;
+}
+
+a {
+    font-weight: bold;
+}
+
+h1 {
+    color: #eb345b;
+}
+
+h1:hover {
+    color: #eb7134;
+}
+
+#emoji {
+    font-size: 58px;
+}
+
+#emoji:hover {
+    transform: scale(1.2);
+}
