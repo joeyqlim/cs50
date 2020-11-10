@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bopomofo Keyboard</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<!-- keyboard -->
+<div id="keyboard">
+    <div class="num-row row">
+        <div class="key" id="disabled">~<br>`</div>
+        <div class="key" id="ㄅ">ㄅ<br>b</div>
+        <div class="key" id="ㄉ">ㄉ<br>d</div>
+        <div class="key" id="ˇ">ˇ</div>
+        <div class="key" id="ˋ">ˋ</div>
+        <div class="key" id="ㄓ">ㄓ<br>zh</div>
+        <div class="key" id="ˊ">ˊ</div>
+        <div class="key" id="˙">˙</div>
+        <div class="key" id="ㄚ">ㄚ<br>a</div>
+        <div class="key" id="ㄞ">ㄞ<br>ai</div>
+        <div class="key" id="ㄢ">ㄢ<br>an</div>
+        <div class="key" id="ㄦ">ㄦ<br>er</div>
+        <div class="key" id="disabled">+<br>=</div>
+        <div class="key md" id="disabled">delete</div>
+    </div>
+
+    <div class="qwe-row row">
+        <div class="key md" id="disabled">tab</div>
+        <div class="key" id="ㄆ">ㄆ<br>p</div>
+        <div class="key" id="ㄊ">ㄊ<br>t</div>
+        <div class="key" id="ㄍ">ㄍ<br>g</div>
+        <div class="key" id="ㄐ">ㄐ<br>j</div>
+        <div class="key" id="ㄔ">ㄔ<br>ch</div>
+        <div class="key" id="ㄗ">ㄗ<br>z</div>
+        <div class="key" id="ㄧ">ㄧ<br>yi</div>
+        <div class="key" id="ㄛ">ㄛ<br>o</div>
+        <div class="key" id="ㄟ">ㄟ<br>ei</div>
+        <div class="key" id="ㄣ">ㄣ<br>-n</div>
+        <div class="key" id="disabled">{<br>[</div>
+        <div class="key" id="disabled">}<br>]</div>
+        <div class="key" id="disabled">|<br>\</div>
+    </div>
+
+    <div class="asd-row row">
+        <div class="key md" id="disabled">caps lock</div>
+        <div class="key" id="ㄇ">ㄇ<br>m</div>
+        <div class="key" id="ㄋ">ㄋ<br>n</div>
+        <div class="key" id="ㄎ">ㄎ<br>k</div>
+        <div class="key" id="ㄑ">ㄑ<br>q</div>
+        <div class="key" id="ㄕ">ㄕ<br>sh</div>
+        <div class="key" id="ㄘ">ㄘ<br>c</div>
+        <div class="key" id="ㄨ">ㄨ<br>u</div>
+        <div class="key" id="ㄜ">ㄜ<br>e</div>
+        <div class="key" id="ㄠ">ㄠ<br>ao</div>
+        <div class="key" id="disabled">:<br>;</div>
+        <div class="key" id="disabled">"<br>'</div>
+        <div class="key md" id="disabled">return</div>
+    </div>
+
+    <div class="zxc-row row">
+        <div class="key long" id="disabled">shift</div>
+        <div class="key" id="ㄈ">ㄈ<br>f</div>
+        <div class="key" id="ㄌ">ㄌ<br>l</div>
+        <div class="key" id="ㄏ">ㄏ<br>h</div>
+        <div class="key" id="ㄒ">ㄒ<br>x</div>
+        <div class="key" id="ㄖ">ㄖ<br>r</div>
+        <div class="key" id="ㄙ">ㄙ<br>s</div>
+        <div class="key" id="ㄩ">ㄩ<br>ü</div>
+        <div class="key" id="ㄝ">ㄝ<br>ie</div>
+        <div class="key" id="ㄡ">ㄡ<br>ou</div>
+        <div class="key" id="ㄥ">ㄥ<br>ng</div>
+        <div class="key long" id="disabled">shift</div>
+    </div>
+
+    <div class="spacebar row">
+        <div class="key space-key xl" id=" ">space bar</div>
+    </div>
+</div>
+
+<!-- textarea-->
+<textarea id="textarea" placeholder="Click on a character to start typing..."></textarea>
+<div id="message"></div>
+
+<script src="popup.js"></script>
+</body>
+</html>

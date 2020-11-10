@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&display=swap');
+
+* {
+	font-size: 12px;
+	font-family: 'Noto Sans SC';
+	font-weight: 500;
+}
+
+#textarea {
+	margin-top: 10px;
+	font-size: 14px;
+	width: 99%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	resize: none;
+}
+
+#keyboard {
+	display: flex;
+	flex-flow: column;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row {
+	display: flex;
+	flex-flow: row;
+	height: 48px;
+}
+
+.key {
+	min-width: 28px;
+	margin: 3px;
+	padding: 0px 6px;
+	border: .1px solid rgb(211, 211, 211);
+	border-radius: 5px;
+}
+
+.md {
+	min-width: 75px;
+}
+
+.long {
+	min-width: 99px;
+}
+
+.xl {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#disabled {
+	background-color: rgba(94, 94, 94, 0.719);
+	color: white;
+}
+
+#message {
+	margin: 15px 0 15px 3px;
+}
+
+#copied {
+	background-color: rgb(104, 167, 104);
+	color: rgb(255, 255, 255);
+	padding: 4px 10px;
+	border-radius: 20px;
+}
+
+.key:not(#disabled):hover
+{
+	 background-color: rgb(140, 210, 223);
+	 cursor: pointer;
+	 color: white;
+}
