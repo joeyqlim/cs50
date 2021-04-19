@@ -1,6 +1,6 @@
 # CS50x 2020
 
-Documenting my progress through [CS50's Introduction to Computer Science](https://cs50.harvard.edu/x/2020/) from Harvard. Open to feedback and discussion. I also hope this can be helpful to other students :)
+Notes and solutions to [HarvardX: CS50's Introduction to Computer Science 2020](https://cs50.harvard.edu/x/2020/).
 
 > Introduction to the intellectual enterprises of computer science and
 > the art of programming. This course teaches students how to think
